@@ -1,0 +1,38 @@
+[
+    {
+        "identifier": "1",
+        "breed": "Asiático",
+        "size": {
+            "height_in_centimeters": 40,
+            "weight_in_kilograms": 4,
+            "description": "Los gatos asiáticos tienen un tamaño mediano a grande."
+        }
+    },
+    {
+        "identifier": "2",
+        "breed": "Birmano",
+        "size": {
+            "height_in_centimeters": 30,
+            "weight_in_kilograms": 2,
+            "description": "Es un gato relativamente grande, con un cuerpo rechoncho y de patas cortas."
+        }
+    },
+    {
+        "identifier": "3",
+        "breed": "Siamés",
+        "size": {
+            "height_in_centimeters": 30,
+            "weight_in_kilograms": 2,
+            "description": "El siamés es un gato de tamaño mediano y cuerpo largo y flexible."
+        }
+    },
+    {
+        "identifier": "4",
+        "breed": "Sphynx",
+        "size": {
+            "height_in_centimeters": 30,
+            "weight_in_kilograms": 2,
+            "description": "El cuerpo tiene una osamenta fina, aunque es musculoso y tiene un pecho fuerte."
+        }
+    }
+]

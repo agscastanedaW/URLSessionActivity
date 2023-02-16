@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "breed": "Asiático",
+        "size": "Los gatos asiáticos tienen un tamaño mediano a grande."
+    },
+    {
+        "id": 2,
+        "breed": "Birmano",
+        "size": "Es un gato relativamente grande, con un cuerpo rechoncho y de patas cortas."
+    },
+    {
+        "id": 3,
+        "breed": "Siamés",
+        "size": "El siamés es un gato de tamaño mediano y cuerpo largo y flexible"
+    },
+    {
+        "id": 4,
+        "breed": "Sphynx",
+        "size": "El cuerpo tiene una osamenta fina, aunque es musculoso y tiene un pecho fuerte."
+    }
+]
