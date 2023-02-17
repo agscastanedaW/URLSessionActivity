@@ -42,6 +42,7 @@
 		D1A9B57D299E14D2007D20DE /* CatsURLRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A9B57C299E14D2007D20DE /* CatsURLRequestFactory.swift */; };
 		D1A9B57F299EE0DA007D20DE /* CatsViewController+MenuTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A9B57E299EE0DA007D20DE /* CatsViewController+MenuTabController.swift */; };
 		D1A9B581299EE103007D20DE /* DogsViewController+MenuTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A9B580299EE103007D20DE /* DogsViewController+MenuTabController.swift */; };
+		D1A9B583299EF175007D20DE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D1A9B582299EF175007D20DE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		D1A9B57C299E14D2007D20DE /* CatsURLRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsURLRequestFactory.swift; sourceTree = "<group>"; };
 		D1A9B57E299EE0DA007D20DE /* CatsViewController+MenuTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CatsViewController+MenuTabController.swift"; sourceTree = "<group>"; };
 		D1A9B580299EE103007D20DE /* DogsViewController+MenuTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DogsViewController+MenuTabController.swift"; sourceTree = "<group>"; };
+		D1A9B582299EF175007D20DE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				D1878F9F299B76A700CE97B0 /* URLSessionSample */,
+				D1A9B582299EF175007D20DE /* README.md */,
 				D1878F9E299B76A700CE97B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			files = (
 				D1878FDE299C6CEF00CE97B0 /* cats-v2.json in Resources */,
 				D1878FAD299B76AB00CE97B0 /* LaunchScreen.storyboard in Resources */,
+				D1A9B583299EF175007D20DE /* README.md in Resources */,
 				D1878FDC299C6CD800CE97B0 /* cats.json in Resources */,
 				D1878FAA299B76AB00CE97B0 /* Assets.xcassets in Resources */,
 			);
