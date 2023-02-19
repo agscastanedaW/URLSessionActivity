@@ -8,5 +8,5 @@
 import Foundation
 
 protocol DecodableResultAdapter {
-    func mapModel<T: Decodable>(data: Data) -> Result<T, Error>
+    func mapModel<T: Decodable>(data: Data) throws -> T
 }
