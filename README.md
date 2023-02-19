@@ -16,12 +16,12 @@ La intención de este proyecto es:
 
 ### 1. Define tipos de errores para la capa de Networking:
 
-1. Crea una enumeración para manejar los siguientes errores del cliente:
+1. Crea una enumeración `NetworkingClientErrors` para manejar los siguientes errores del cliente:
 
-    * Error al de URL inválida en tus endpoints. 
+    * Error al crear una URL inválida a partir de un endpoint.
     * Error al decodificar los datos de una respuesta.
  
-1. Crea una enumeración para manejar los siguientes errores del servidor:
+1. Crea una enumeración `NetworkingServerErrors` para manejar los siguientes errores del servidor:
 
     * Error interno del servidor 500.
     * Error de datos no encontrados.
