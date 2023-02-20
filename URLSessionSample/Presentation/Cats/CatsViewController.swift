@@ -11,14 +11,17 @@ import Foundation
 final class CatsViewController: UITableViewController {
     
     private let catsService: CatsService
+    private let simpleAlertFactory: SimpleAlertFactory
     private var cats: [CatViewData] = [] {
         didSet {
             tableView.reloadData()
         }
     }
     
-    init(catsService: CatsService) {
+    init(catsService: CatsService,
+         simpleAlertFactory: SimpleAlertFactory = SimpleAlertFactoryImp()) {
         self.catsService = catsService
+        self.simpleAlertFactory = simpleAlertFactory
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -47,7 +50,10 @@ final class CatsViewController: UITableViewController {
     }
     
     private func show(_ error: Error) {
-        print(error.localizedDescription)
+        let alert = simpleAlertFactory.make(with: "Ha ocurrido un error!",
+                                            message: error.localizedDescription,
+                                            buttonTitle: "OK")
+        navigationController?.present(alert, animated: true)
     }
     
     func addFavoriteCat(at index: Int) {

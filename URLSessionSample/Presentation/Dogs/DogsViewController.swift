@@ -10,14 +10,17 @@ import UIKit
 final class DogsViewController: UITableViewController {
     
     private let dogsService: DogsService
+    private let simpleAlertFactory: SimpleAlertFactory
     private var dogs: [DogViewData] = [] {
         didSet {
             tableView.reloadData()
         }
     }
     
-    init(dogsService: DogsService) {
+    init(dogsService: DogsService,
+         simpleAlertFactory: SimpleAlertFactory = SimpleAlertFactoryImp()) {
         self.dogsService = dogsService
+        self.simpleAlertFactory = simpleAlertFactory
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -45,7 +48,10 @@ final class DogsViewController: UITableViewController {
     }
     
     private func show(_ error: Error) {
-        print(error.localizedDescription)
+        let alert = simpleAlertFactory.make(with: "Ha ocurrido un error!",
+                                            message: error.localizedDescription,
+                                            buttonTitle: "OK")
+        navigationController?.present(alert, animated: true)
     }
 }
 

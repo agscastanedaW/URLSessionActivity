@@ -43,6 +43,7 @@
 		D1A9B57F299EE0DA007D20DE /* CatsViewController+MenuTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A9B57E299EE0DA007D20DE /* CatsViewController+MenuTabController.swift */; };
 		D1A9B581299EE103007D20DE /* DogsViewController+MenuTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A9B580299EE103007D20DE /* DogsViewController+MenuTabController.swift */; };
 		D1A9B583299EF175007D20DE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D1A9B582299EF175007D20DE /* README.md */; };
+		D1FE130929A33628006622AE /* SimpleAlertFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FE130829A33628006622AE /* SimpleAlertFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		D1A9B57E299EE0DA007D20DE /* CatsViewController+MenuTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CatsViewController+MenuTabController.swift"; sourceTree = "<group>"; };
 		D1A9B580299EE103007D20DE /* DogsViewController+MenuTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DogsViewController+MenuTabController.swift"; sourceTree = "<group>"; };
 		D1A9B582299EF175007D20DE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D1FE130829A33628006622AE /* SimpleAlertFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAlertFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		D1878FBA299B775200CE97B0 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				D1FE130729A33614006622AE /* Helpers */,
 				D1A9B56D299E0DD5007D20DE /* Menu */,
 				D1A9B564299E0D76007D20DE /* Dogs */,
 				D1878FDF299C6D7500CE97B0 /* Cats */,
@@ -245,6 +248,14 @@
 			path = Menu;
 			sourceTree = "<group>";
 		};
+		D1FE130729A33614006622AE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D1FE130829A33628006622AE /* SimpleAlertFactory.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -321,6 +332,7 @@
 				D1878FA5299B76A700CE97B0 /* CatsViewController.swift in Sources */,
 				D1878FC0299B77D600CE97B0 /* DecodableResultAdapter.swift in Sources */,
 				D1878FC9299B7ABE00CE97B0 /* Cat.swift in Sources */,
+				D1FE130929A33628006622AE /* SimpleAlertFactory.swift in Sources */,
 				D1878FD0299C464300CE97B0 /* CatsService.swift in Sources */,
 				D1878FA1299B76A700CE97B0 /* AppDelegate.swift in Sources */,
 				D1A9B56C299E0DBE007D20DE /* DogsServiceImp.swift in Sources */,
